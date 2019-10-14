@@ -7,7 +7,7 @@ class FamilyTree {
 
   insert(name) {
     let family = new FamilyTree(name)
-    this.name.push(name)
+    family.push(this.name)
   }
 
   familySize(){
